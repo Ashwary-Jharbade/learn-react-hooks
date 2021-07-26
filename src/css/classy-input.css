@@ -1,0 +1,28 @@
+.classy-container{
+    margin: 15px;
+}
+
+.classy-container input{
+    height: 35px;
+    width: 200px;
+    border:2px solid darkgreen;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    color: darkgreen;
+    overflow: visible;
+}
+
+.classy-container input::placeholder{
+    color: darkgreen;
+    background-color:white ;
+    width: fit-content;
+    padding: 5px;
+}
+
+.classy-container input:focus::placeholder{
+    color: darkgreen;
+    font-size: 10px;
+    position: relative;
+    top:-15px;
+}
